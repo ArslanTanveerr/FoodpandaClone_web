@@ -1,0 +1,129 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f7f7f7;
+}
+
+.header {
+    background-color: #d70f64;
+    color: white;
+    padding: 15px 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header a {
+    color: white;
+    margin-left: 20px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.hero {
+    padding: 40px 30px;
+    background-color: white;
+}
+
+.search-box {
+    margin-top: 15px;
+}
+
+input {
+    padding: 10px;
+    width: 260px;
+}
+
+button {
+    padding: 10px 15px;
+    background-color: #d70f64;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.restaurants {
+    padding: 30px;
+}
+
+.restaurants h3 {
+    margin-bottom: 20px;
+}
+
+.restaurants {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 25px;
+}
+
+.card {
+    background-color: transparent;
+}
+
+.card-img {
+    height: 180px;
+    border-radius: 10px;
+    color: white;
+    font-size: 18px;
+    padding: 10px;
+    display: flex;
+    align-items: flex-end;
+    background-size: cover;
+    background-position: center;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.card p {
+    background-color: white;
+    margin: 0;
+    padding: 10px;
+    border-radius: 0 0 10px 10px;
+    color: #555;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.img1 {
+    background-image: url("https://images.unsplash.com/photo-1600891964599-f61ba0e24092");
+}
+
+.img2 {
+    background-image: url("https://images.unsplash.com/photo-1540189549336-e6e99c3679fe");
+}
+
+.img3 {
+    background-image: url("https://images.unsplash.com/photo-1594007654729-407eedc4be65");
+}
+
+.img4 {
+    background-image: url("https://images.unsplash.com/photo-1550547660-d9450f859349");
+}
+
+.img5 {
+    background-image: url("https://images.unsplash.com/photo-1568901346375-23c9450c58cd");
+}
+
+.img6 {
+    background-image: url("https://media.istockphoto.com/id/1131208822/photo/burger.webp?a=1&s=612x612&w=0&k=20&c=TA-y3gy0OFwIBrTHtUvSftoH0XG1ybVuo_HXSnFl40c=");
+}
+
+.img7 {
+    background-image: url("https://images.unsplash.com/photo-1550547660-d9450f859349");
+}
+
+.img8 {
+    background-image: url("https://images.unsplash.com/photo-1604908176997-125f25cc6f3d");
+}
+
+.img9 {
+    background-image: url("https://media.istockphoto.com/id/2209114071/photo/fast-food-restaurant-front-view-of-counter-with-sweet-buns-and-doughnuts.webp?a=1&b=1&s=612x612&w=0&k=20&c=dwJ-MHpq-FuKa1iSECNvZPBSDPsXat12nD9cn0Bm14Y=");
+}
+
+footer {
+    text-align: center;
+    color: gray;
+    padding: 30px;
+}

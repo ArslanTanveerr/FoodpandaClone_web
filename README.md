@@ -1,11 +1,11 @@
-# 🍔 Foodpanda Clone (Frontend)
+#  Foodpanda Clone (Frontend)
 
 A basic **Foodpanda homepage clone** built using **HTML, CSS, and JavaScript (DOM)**.  
 This project is created for learning and practice purposes.
 
 ---
 
-## 📌 Features
+##  Features
 
 - Responsive header with Login & Sign Up
 - Hero section with location search
@@ -15,7 +15,7 @@ This project is created for learning and practice purposes.
 
 ---
 
-## 🛠️ Technologies Used
+##  Technologies Used
 
 - **HTML5**
 - **CSS3**
@@ -23,7 +23,7 @@ This project is created for learning and practice purposes.
 
 ---
 
-## 📁 Project Structure
+##  Project Structure
 
 foodpanda-clone/
 │

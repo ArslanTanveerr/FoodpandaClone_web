@@ -32,7 +32,7 @@ foodpanda-clone/
 ├── script.js
 └── README.md
 
-## ✨ Future Improvements
+##  Future Improvements
 
 - Real restaurant filtering
 - Search functionality
